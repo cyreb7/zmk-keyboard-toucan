@@ -41,7 +41,7 @@
                 &mkp MCLK  &kp Q  &kp W       &kp E        &kp R        &kp T      &kp Y  &kp U        &kp I        &kp O       &kp P    &kp RSHFT
                 &mkp LCLK  &kp A  &hm LALT S  &hm LCTRL D  &hm LSHFT F  &kp G      &kp H  &hm RSHFT J  &hm RCTRL K  &hm LALT L  &kp ESC  &kp RCTRL
                 &mkp RCLK  &kp Z  &hm LALT X  &kp C        &kp V        &kp B      &kp N  &kp M        &kp COMMA    &hm LALT DOT &kp LGUI &kp RALT
-                                               &mo NUMBER   &th LCTRL SPACE  &th LSHFT BSPC      &mo NAV  &th LSHFT RET  &th LCTRL TAB
+                                               &mo NUMBER   &th LCTRL SPACE  &th LSHFT BSPC      &th LCTRL TAB  &th LSHFT RET  &mo NAV
             >;
         };
 
@@ -51,7 +51,7 @@
                 &mkp MCLK  &kp LBKT  &kp RBKT  &kp QMARK  &kp FSLH  &kp CARET      &kp PLUS   &kp N7       &kp N8       &kp N9       &kp PRCNT  &kp RSHFT
                 &mkp LCLK  &kp LPAR  &kp RPAR  &kp SQT    &kp DQT   &kp COLON      &kp MINUS  &hm RSHFT N4 &hm RCTRL N5 &hm LALT N6  &kp SEMI   &kp RCTRL
                 &mkp RCLK  &kp LT    &kp GT    &kp DLLR   &kp EQUAL &kp HASH       &kp UNDER  &kp N1       &kp N2       &kp N3       &kp N0     &kp RALT
-                                                &trans     &trans    &trans         &mo FUNCTION &trans     &trans
+                                                &trans     &trans    &trans         &trans     &trans       &mo FUNCTION
             >;
         };
 
@@ -81,7 +81,7 @@
                 &kp TAB    &kp Q  &kp W  &kp E  &kp R  &kp T      &kp Y    &kp U     &kp I      &kp O    &kp P     &kp BSPC
                 &kp LSHFT  &kp A  &kp S  &kp D  &kp F  &kp G      &kp H    &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
                 &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B      &kp N    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                                         &kp ESC &kp SPACE &lt GAME2 LALT   &to BASE  &kp RET  &kp BSPC
+                                         &kp ESC &kp SPACE &lt GAME2 LALT   &kp BSPC  &kp RET  &to BASE
             >;
         };
 
