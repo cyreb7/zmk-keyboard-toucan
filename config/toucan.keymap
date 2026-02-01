@@ -68,10 +68,10 @@
         function {
             display-name = "FUNCTION";
             bindings = <
-                &mkp MCLK  &none      &none        &to GAME1  &none        &none          &none   &kp F7  &kp F8  &kp F9  &kp F10  &kp RSHFT
-                &mkp LCLK  &kp CAPS   &kp INS      &kp PSCRN  &kp K_CALC   &none          &none   &kp F4  &kp F5  &kp F6  &kp F11  &kp RCTRL
-                &mkp RCLK  &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   &none   &kp F1  &kp F2  &kp F3  &kp F12  &kp RALT
-                                                   &trans     &trans       &trans         &trans  &trans  &trans
+                &mkp MCLK  &none      &none        &to GAME1    &none        &bt BT_CLR       &none   &kp F7  &kp F8  &kp F9  &kp F10  &kp RSHFT
+                &mkp LCLK  &kp CAPS   &kp INS      &kp PSCRN    &kp K_CALC   &bt BT_SEL 5     &none   &kp F4  &kp F5  &kp F6  &kp F11  &kp RCTRL
+                &mkp RCLK  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none   &kp F1  &kp F2  &kp F3  &kp F12  &kp RALT
+                                                     &trans       &trans       &trans         &trans  &trans  &trans
             >;
         };
 
